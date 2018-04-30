@@ -8,3 +8,6 @@ The Harmonic Product Spectrum is cool - it's a simple concept (with surprisingly
 
 ## Built With
 * [KissFFT](https://sourceforge.net/projects/kissfft/) - an efficient Fast Fourier Transform library that can use fixed or floating data types
+
+## License
+This project is licensed under the MIT License - see the [License](LICENSE) file for details
