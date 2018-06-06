@@ -1,5 +1,5 @@
 # perfect-pitch
-Currently a rewrite of [Jacob Conley's choracle in Python](https://github.com/jacobconley/choracle) in C.
+A rewrite of [Jacob Conley's choracle in Python](https://github.com/jacobconley/choracle) - work in progress
 
 ## How it works
 It works by performing a Fourier transform and then computing the "Harmonic Product Spectrum", i.e. taking the geometric means of the magnitudes of the Fourier spectrum for a base note and a set of its low harmonics - right now, we consider 5 harmonics (this seems to be about the sweet spot) across the standard pitches from E2 to E4 (this is just a demonstration, and should be expanded to include the full range of notes that one would expect to be present in a chord). The program simply outputs the notes corresponding to the 5 greatest harmonic products.
